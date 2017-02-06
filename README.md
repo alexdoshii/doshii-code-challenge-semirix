@@ -1,15 +1,10 @@
 # Doshii Code Challenge
 
 There are three parts to the Code Challenge that you'll need to complete.
-- Code Tests
 - Questionnaire
 - A Super Small Web App
 
 Best to start by forking this repo
-
-## Code Tests
-
-Please complete the code tests `1_Efficiency` and `2_PoD`. Generally the idea is to modify the code so that the tests pass. Greater detail as to what is expected is located in each test subdirectory.
 
 ## Questionnaire
 
