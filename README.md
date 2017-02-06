@@ -9,25 +9,33 @@ Best to start by forking this repo
 
 ## Code Tests
 
-A Doshii staff member will assign two of the tests located in this repo to you. Generally the idea is to modify the code so that the tests pass. Greater detail as to what is expected is located in each test subdirectory. Please contact <a href="mailto:info@dohsii.io">Jimmy</a> if the two tests have not been assigned.
+Please complete the code tests `1_Efficiency` and `2_PoD`. Generally the idea is to modify the code so that the tests pass. Greater detail as to what is expected is located in each test subdirectory.
 
 ## Questionnaire
 
 Please answer the questions provided in the file `questionairre/README.md`
 
-## A Super Small Web App
+## A Small Web Application
 
-Doshii recently released a Rewards section of the API. Create a simple CRUD application with a Rewards theme using the following technologies
+Create a simple application for member rewards.
+
+Endpoints and logic should be created for:
+- Creating a member and reward
+- Associate a reward to a member
+- Retrieve a member and their rewards
+- Delete a member and reward
+
+#### Please complete using the following technologies
 - NodeJS (ES6)
-- An SQL flavour
+- Any SQL flavour
 
-As part of your solution please specify any:
+#### As part of your solution please specify any:
  - Software requirements
  - Installation instructions
  - Assumptions made about the requirements of the task
  - Anything you believe is important but out of scope or unnecessary
 
-We value:
+#### We value
  - Good application design
  - Clear and readable code
  - Tests and testable code
