@@ -6,3 +6,5 @@
 2. In a hypothetical situation, AWS costs have been rising month to month by over 30%. What would you do to stem the rising costs?
 
 3. What would you consider to be the pros and cons of outsourcing software development? What about DevOps?
+
+4. What do you see as the responsibilities of a software developer?

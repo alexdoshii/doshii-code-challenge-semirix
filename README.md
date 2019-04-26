@@ -19,7 +19,7 @@ Endpoints and logic should be created for:
 - Delete a member and reward
 
 #### Please complete using the following technologies
-- NodeJS (ES6)
+- NodeJS (ES6) - preferably using version 8 or above
 - Any SQL flavour
 
 #### As part of your solution please specify any:
