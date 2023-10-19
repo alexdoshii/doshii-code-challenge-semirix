@@ -1,14 +1,4 @@
-# Doshii Code Challenge
-
-There are two parts to the Code Challenge that you'll need to complete.
-- Questionnaire
-- A Super Small Web App
-
-## Questionnaire
-
-Please answer the questions provided in the file `questionnaire/README.md`
-
-## A Web Application
+## Doshii Code Challenge - Web Application
 
 Create a simple Dockerised application to manage members and rewards. The model for members and rewards are entirely up to you.
 The application can be written in either JavaScript or TypeScript with a framework of your choosing.
