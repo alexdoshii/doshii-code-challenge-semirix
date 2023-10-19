@@ -1,26 +1,27 @@
-# Doshii Code Challenge
+## Doshii Code Challenge - Web Application
 
-There are two parts to the Code Challenge that you'll need to complete.
-- Questionnaire
-- A Super Small Web App
+Create a simple Dockerised application to manage members and rewards. The model for members and rewards are entirely up to you.
+The application can be written in either JavaScript or TypeScript with a framework of your choosing.
+The data can be stored in any source using an existing Docker container image.
 
-## Questionnaire
+### Must have:
+The Nodejs application containing endpoints to manage CRUD operations:
+- Members
+  - Retrieve a member by email
+  - Option to include associated rewards in the response
+  - Option to specify which member properties to return
+- Rewards
+- Associate/dissociate a reward to a member
 
-Please answer the questions provided in the file `questionnaire/README.md`
+### Nice to have:
+- Ability to search members
+- Ability to search rewards
+- Supporting unit and integration tests
 
-## A Small Web Application
-
-Create a simple application for member rewards.
-
-Endpoints and logic should be created for:
-- Creating a member and reward
-- Associate a reward to a member
-- Retrieve a member and their rewards
-- Delete a member and reward
-
-#### Please complete using the following technologies
-- NodeJS (ES6) - preferably using version 8 or above
-- Any SQL flavour
+#### A complete solution should have the following:
+- NodeJS applicaiton
+- An SQL/noSQL database
+- Runnable in a Docker container
 
 #### As part of your solution please specify any:
  - Software requirements
