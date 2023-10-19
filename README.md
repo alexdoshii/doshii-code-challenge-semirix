@@ -30,7 +30,7 @@ The Nodejs application containing endpoints to manage CRUD operations:
 
 #### A complete solution should have the following:
 - NodeJS applicaiton
-- A SQL/noSQL database
+- An SQL/noSQL database
 - Runnable in a Docker container
 
 #### As part of your solution please specify any:
