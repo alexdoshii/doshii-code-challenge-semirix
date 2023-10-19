@@ -23,15 +23,15 @@ The Nodejs application containing endpoints to manage CRUD operations:
 - Rewards
 - Associate/dissociate a reward to a member
 
-
 ### Nice to have:
 - Ability to search members
 - Ability to search rewards
 - Supporting unit and integration tests
 
-#### Please complete using the following technologies
-- NodeJS (ES6) - preferably using version 8 or above
-- Any SQL flavour
+#### A complete solution should have the following:
+- NodeJS applicaiton
+- A SQL/noSQL database
+- Runnable in a Docker container
 
 #### As part of your solution please specify any:
  - Software requirements
