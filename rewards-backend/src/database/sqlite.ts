@@ -85,7 +85,7 @@ export class SQLiteDatabase implements DatabaseOperations {
 
     // I wish to never do this again :(
     const sql = !resolveRewards
-      ? `SELECT ${join} FROM users WHERE email LIKE '%' || ? || '%'`
+      ? `SELECT ${join} FROM users WHERE email = ?`
       : `SELECT ${join},
              (
                SELECT json_group_object(
@@ -100,7 +100,7 @@ export class SQLiteDatabase implements DatabaseOperations {
                JOIN rewards AS r ON r.id = CAST(json_each.key AS INTEGER)
              ) AS rewards_resolved
           FROM users AS u
-          WHERE u.email LIKE '%' || ? || '%'`
+          WHERE u.email = ?`
 
     const result = await this.database.get(sql, email)
 
